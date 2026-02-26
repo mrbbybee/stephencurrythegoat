@@ -24,17 +24,23 @@ header h1 {
     margin: 0;
 }
 
+/* ===== NAVIGATION BAR ===== */
 nav {
     background-color: #000;
     text-align: center;
-    padding: 10px;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
     color: #ffc72c;
-    margin: 0 15px;
+    margin: 0 20px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
 nav a:hover {
