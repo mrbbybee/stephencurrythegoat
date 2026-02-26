@@ -24,7 +24,6 @@ header h1 {
     margin: 0;
 }
 
-/* ===== NAVIGATION BAR ===== */
 nav {
     background-color: #000;
     text-align: center;
@@ -55,6 +54,7 @@ section {
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0,0,0,0.4);
 }
+
 .slider-container {
     width: 100%;
     overflow: hidden;
@@ -62,24 +62,12 @@ section {
 .slider-container {
   overflow: hidden;
 }
-
-.image-wrapper {
-  display: flex;
-  width: 300%;
-  animation: slide 5s infinite alternate ease-in-out;
-}
-
 .image-wrapper img {
   width: 350px;
   height: 250px;
   object-fit: cover;
 }
 
-@keyframes slide {
-  0%, 25% { transform: translateX(0); }
-  35%, 60% { transform: translateX(-330px); }
-  70%, 100% { transform: translateX(-670px); }
-}
 h2 {
     color: #1d428a;
     border-left: 8px solid #f57c00;
