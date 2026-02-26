@@ -24,6 +24,23 @@ header h1 {
     margin: 0;
 }
 
+nav {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffc72c;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
 section {
     background-color: white;
     max-width: 1000px;
